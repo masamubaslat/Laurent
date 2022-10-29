@@ -1,0 +1,490 @@
+/* ---------------------------------------- start public ---------------------------------------------------------------*/
+/* res 7 */
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=PT+Serif&family=Playball&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Mrs+Saint+Delafield&family=PT+Serif&family=Playball&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Miniver&family=Mrs+Saint+Delafield&family=PT+Serif&family=Playball&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Miniver&family=Mrs+Saint+Delafield&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@100;300&family=Miniver&family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@100;300&family=Miniver&family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@400;700&family=Mrs+Saint+Delafield&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --res7-main-color:rgb(201, 171, 129);
+    --res8-mai-color:#60BA62;
+}
+.main-color{
+    color: #e7b35a;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+.container-95{
+    width: 95%;
+    margin: auto;
+}
+.container-80{
+    width: 80%;
+    margin: auto;
+}
+.container-90{
+    width: 90%;
+    margin: auto;
+}
+.bg-darkBlue{
+    background-color: #0b1315;
+}
+
+/* ---------------------------------------- end public ---------------------------------------------------------------*/
+
+nav{
+    position: fixed !important;
+    top: 0px !important;
+    z-index: 9999;
+    overflow: hidden;
+    width: 95.09vw;
+}
+.nav-link{
+    color: white;
+    line-height: 1;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'PT Serif', serif;
+    line-height: 1px;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+/* ---------------- end nav section -----------------*/
+
+/*  *************************************** Start Resturant --7-- Page **************************************** */
+/*-------------- start header section --------------*/
+.res-7-head{
+    background-image: url(images/res7/main-bg.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.rest-head-content{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    animation: 2s main_res_header_animation ;
+    transform: translate(-15%,-70%);
+}
+@keyframes main_res_header_animation{
+    from{
+        transform: translate(-15%,-10%);
+    }
+    to{
+        transform: translate(-15%,-70%);
+    }
+}
+.res-7-head h3{
+    font-family: 'Mrs Saint Delafield', cursive;
+    line-height: 145px;
+    font-weight: 300;
+    font-size: 8.75rem;
+    color: var(--res7-main-color);
+    
+}
+.res-7-head p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 1.313rem;
+    line-height: 32px;
+    text-align: center;
+    margin: auto;
+    width: 41.813rem;
+}
+/*-------------- End header section --------------*/
+
+/*-------------- Start section --1-- --------------*/
+.s1{
+    background-color: #040909;
+    height: 1000px;
+    position: relative;
+}
+#res1-data1{
+    top:-180px; 
+}
+.s1-1{
+    height: 250px;
+    width: 350px;
+    background: #000;
+    background-position: top;
+    transition: ease-in-out 4s;
+}
+.s1-1:hover{
+ background-position: bottom !important;
+}
+/*-------------- End section --1-- --------------*/
+
+/*-------------- Start section --2-- --------------*/
+.res7-s2{
+    background-color: #0f1d22;
+    height: 120vh;
+}
+.res7-section-title-para{
+    font-family: 'Miniver', cursive;
+    font-size: 1.188rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(201, 171, 129);
+    margin-bottom: 0.813rem;
+}
+.res7-section-title{
+    font-family: sans-serif;
+    font-size: 2.563rem;
+    font-weight: 700;
+    line-height: 53.71px;
+    text-transform: uppercase;
+    color: rgb(201, 171, 129);
+}
+.res7-s2 p{
+    font-family:sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 1.188rem;
+    text-align: center;
+    color: white;
+}
+.res7-s2 a {
+    color: white;
+    text-decoration: double #C59D5F;
+}
+.res7-s2-svg{
+    margin-left: 74%;
+}
+.laptop {
+   top: -50%;
+}
+.laptop-self-image{
+   width: 727.95px;
+   height: 406.72px;
+}
+.landing-laptop {
+    position: absolute;
+    top: 42px;
+    left: 95px;
+    width: 521px;
+    height: 311px;
+    overflow: hidden;
+}
+@-webkit-keyframes silde_animation{
+    0%{margin-top: 0px;}
+    100%{margin-top: -65%;}
+}
+@-webkit-keyframes silde2_animation{
+    0%{margin-top: 0px;}
+    100%{margin-top: -185%;}
+}
+.tablet{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.tablet img{
+    width: 340px;
+    height: 349px;
+    overflow: hidden;
+}
+.landing-tablet img{
+    position: absolute;
+    width: 177px;
+    height: 268.53px;
+    top: 35px;
+    left: 85px;
+}
+.phone{
+    position: absolute;
+    top: 150px;
+    left: 240px;
+}
+.phone-img{
+    width: 261px;
+    height: 300px;
+}
+.landing-phone img{
+    position: absolute;
+    width: 104px;
+    height: 229px;
+    top: 35px;
+    left: 81px;
+}
+.phone-mask{
+    width: 261px;
+    height: 300px;
+    position: absolute;
+    top: 26px;
+    left: 73px;
+}
+.res7-s3{
+    height:max-content;
+    background-color: #090d0e;
+    text-align: center;
+    color: #C9AB81;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.res7-s3 p{
+    width: 35%;
+}
+.res7-footer{
+    background-image: url(images/res7/landing-img-16.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 7rem;
+}
+.res7-footer p{
+    color: rgb(201, 171, 129);
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 130px;
+    font-weight: 300;
+    line-height:80px;
+    text-align: center;
+}
+.res7-footer .login-section{
+    margin-top: 5rem;
+}
+.res7-footer .login{
+    border :1px solid #C59D5F;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 9px 39px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5.04px; 
+    font-size: 14px;
+}
+
+/* --------------------- start menue page -------------------*/
+.res7-menu-nav{
+    padding-top:2rem !important; 
+    border-bottom: 1px solid #715b3e;
+}
+.res7-menu-nav-items{
+    width:95% !important;
+    margin: auto;
+}
+.res7-menu-nav-item .nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 5.04px;
+    line-height: 23px;
+    color: white;
+    margin-left: 1.5rem;
+    position: relative;
+}
+.res7-menu-nav-item .nav-link::before{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #715b3e;
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    transition:width 0.3s ease-out;
+}
+.res7-menu-nav-item .nav-link:after{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #715b3e;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    transition:width 0.4s ease-out;
+}
+.res7-menu-nav-item .nav-link:hover::before{
+    width: 100%;
+}
+.res7-menu-nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.res7-menu-nav hr{
+    color: rgb(201, 171, 129);
+    width: 2rem;
+    height: 4px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.res7-menu-nav-items-second{
+    margin-left: -8px;
+}
+.res7-menu-nav-items-third{
+    margin-left: 8px;
+}
+.res7-menu-nav-items-fourth{
+    margin-left: 5px;
+}
+
+.res7-menu-header{
+    background: url(images/res7/Our-menu-title-img.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+.res7-menu-header .container{
+    border-left: 1px solid #715b3e;
+    border-right: 1px solid #715b3e;
+    height: 100%;
+}
+.res7-menu-header h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #C59D5F;
+    font-size: 3rem;
+}
+.res7-menu{
+    background-color: #0b1315;
+    color: #C9AB81;
+    height: 140vh;
+    text-align: center;
+}
+.res7-menu .container{
+    border-left: 1px solid #715b3e;
+    border-right: 1px solid #715b3e;
+    height: 100%;
+
+}
+.res7-menu-bg-line{
+    border-left: 1px solid ;
+    border-color:  rgba(113, 91, 62 ,0.1);
+    height: 100%;
+    width: 21%;
+}
+.res7-menu-header-content{
+   padding-top: 10rem;
+}
+
+#res-men-7-data{
+    height: 400px;
+}
+.res7-menu-line{
+    display: table-cell;
+    width:50%;
+    border-bottom: 1px solid #715b3e;
+    position: relative;
+    bottom: 8px;
+}
+.res7-menu-line::before{
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #715b3e;
+}
+.res-7-menu-card h6 ,.res-7-menu-card p{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #C59D5F;
+    text-align: left;
+}
+.res-7-meun-desc{
+    color: white !important;
+    font-size: 0.8rem !important;
+    font-family: sans-serif !important;
+}
+.res-7-menu-card a{
+    background-color:#715b3e;
+    color: #FFF;
+    font-size: 0.8rem;
+}
+.res-7-menu-card .btn:hover{
+    color: #fff;
+    font-weight: bold;
+    background-color: #715b3F;
+}
+.res7-menu-main-image{
+    background-image: url(images/res7/Our-menu-img-1.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.res7-menu-main-image2{
+    background-image: url(images/res7/Our-menu-img-2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.res7-menu-main-image3{
+    background-image: url(images/res7/Our-menu-img-3.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.res7-menu-footer{
+    background-color:#0b1315;
+    height: 90vh;
+}
+.res7-menu-footer .container{
+    border-left: 1px solid #715b3e;
+    border-right: 1px solid #715b3e;
+    height: 100%;
+}
+.res7-menu-footer-logo{
+    padding-top: 8rem !important;
+}
+.res7-menu-footer a, .res7-menu-footer p{
+    font-family:sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+.res7-menu-footer a{
+    color: white;
+    text-decoration: none;
+}
+.res7-menu-footer a:hover{
+    color: #c9ab81;
+}
+.res7-menu-footer a{
+    position: relative;
+}
+.res7-menu-footer .contact::before{
+    content: "";
+    background-color: #715b3e;
+    height: 1px;
+    width: 0;
+    left: 0px;
+    bottom: -1px;
+    position: absolute;
+    transition: 0.3s ease-out;
+}
+.res7-menu-footer .contact:hover::before{
+    width: 100%;
+}
+.res7-menu-footer .contact::after{
+    content: "";
+    background-color: #715b3e;
+    height: 1px;
+    width: 0;
+    left: 0px;
+    bottom: -4px;
+    position: absolute;
+    transition: 0.4s ease-out;
+}
+.res7-menu-footer .contact:hover::after{
+    width: 100%;
+}
+.res7-menu-main-image .container, .res7-menu-main-image2 .container, .res7-menu-main-image3 .container{
+    border-left: 1px solid #715b3e;
+    border-right: 1px solid #715b3e;
+    height: 50vh;
+}
+/* --------------------- End menue page -------------------*/
+/*-------------- End section --2-- --------------*/
+
+/*  *************************************** End Resturant --7-- Page ****************************************** */
